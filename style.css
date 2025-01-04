@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css2?family=Katibeh&family=Montserrat:wght@400;500&display=swap);
+@import url(bootstrap-4.3.min.css);
+@import url(animate.css);
+@import url(font-awesome.min.css);
+@import url(owl.carousel.min.css);
+@import url(menu.css);
+@import url(../images/favicon.png);
+body {
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  color: #616161;
+  font-size: 15px;
+  font-family: Montserrat, sans-serif;
+}
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+p {
+  line-height: 22px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  color: inherit;
+  font-family: Katibeh, cursive;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+a,
+a:active,
+a:focus,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: 0;
+}
